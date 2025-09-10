@@ -52,15 +52,14 @@ This project provides a comprehensive inventory management system that enables s
 ### Main Menu Interface
 ```
 =======================================
-     INVENTORY MANAGEMENT SYSTEM
+     INVENTORY SYSTEM
 =======================================
-1. Add New Item
-2. View All Items
-3. Update Stock Quantity
-4. Process Sale
-5. Exit System
+1. Add Item
+2. View Items
+3. Update Stock
+4. Sell Item
 =======================================
-Enter your choice (1-5): 
+Enter your choice (1-4): 
 ```
 
 ### Detailed Operations
@@ -68,60 +67,40 @@ Enter your choice (1-5):
 #### **Adding New Items**
 ```
 Enter choice: 1
-
-=== ADD NEW ITEM ===
 Enter Item ID: 101
 Enter Item Name: Wireless Headphones
-Enter Unit Price: $89.99
-Enter Initial Quantity: 25
-✅ Item 'Wireless Headphones' added successfully!
-📦 Stock Level: 25 units
+Enter Price: 4000
+Enter Quantity: 25
+✅ Item added successfully!
 ```
 
 #### **Viewing Inventory**
 ```
 Enter choice: 2
 
-=== CURRENT INVENTORY ===
+=== INVENTORY ITEMS===
 +------+-------------------+--------+-----------+
 | ID   | Item Name         | Price  | Stock     |
 +------+-------------------+--------+-----------+
-| 101  | Wireless Headphones| $89.99 | 25        |
-| 102  | USB Cables        | $12.50 | 100       |
-| 103  | Phone Cases       | $24.99 | 15        |
+| 101  | Wireless Headphones| 4000  |  25       |
+| 102  | USB Cables        | 5000   |  50       |   
 +------+-------------------+--------+-----------+
-Total Items: 3 | Total Value: $2,122.35
 ```
 
 #### **Updating Stock**
 ```
 Enter choice: 3
-
-=== UPDATE STOCK ===
 Enter Item ID: 101
-Current Stock: 25 units
-Enter New Quantity: 50
-✅ Stock updated successfully!
-📈 New Stock Level: 50 units
+Enter New Quantity: 30
+✅ Stock updated!
 ```
 
-#### **Processing Sales**
+#### **Selling Items**
 ```
 Enter choice: 4
-
-=== PROCESS SALE ===
 Enter Item ID: 101
-Item: Wireless Headphones | Price: $89.99 | Available: 50
-Enter Quantity to Sell: 3
-
-💰 Sale Summary:
-   - Item: Wireless Headphones
-   - Quantity: 3 units
-   - Unit Price: $89.99
-   - Total Amount: $269.97
-
-✅ Sale completed successfully!
-📦 Remaining Stock: 47 units
+Enter Quantity to Sell: 10
+✅ Sold successfully! Total: 100000.00
 ```
 
 ## 🗃️ Data Structure
@@ -182,3 +161,4 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
