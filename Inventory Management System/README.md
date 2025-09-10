@@ -71,7 +71,6 @@ Enter Price: 5000
 Enter Quantity: 25
 ✅Item added successfully!
 ```
-
 <p align="center">
   <img src="Output/1.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
@@ -79,7 +78,6 @@ Enter Quantity: 25
 #### **Viewing Inventory**
 ```
 Enter choice: 2
-
 ====== INVENTORY ITEMS=======
 🆔101 | 📦Wireless Headphones | 💰5000.00 | 📊Qty: 25
 ```
@@ -171,5 +169,6 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
 
 
