@@ -24,10 +24,10 @@ This project implements a fundamental banking system that allows users to perfor
 
 ## 🛠️ Technical Stack
 
-- **Language - ** C (ANSI C compatible).
-- **Compiler - ** GCC (GNU Compiler Collection).
-- **File I/O - ** Standard C library functions (`fopen`, `fwrite`, `fread`, `fseek`, `fclose`).
-- **Storage - ** Binary file format for optimized performance.
+- **Language -** C (ANSI C compatible).
+- **Compiler -** GCC (GNU Compiler Collection).
+- **File I/O -** Standard C library functions (`fopen`, `fwrite`, `fread`, `fseek`, `fclose`).
+- **Storage -** Binary file format for optimized performance.
 
 ## 💻 Usage Guide
 
@@ -108,26 +108,23 @@ struct Account {
 
 ## 🔧 Error Handling
 
-- **Invalid Account Numbers - ** Prompts user to enter valid existing account number.
-- **Insufficient Funds - ** Prevents overdrafts with balance validation.
-- **File Access Issues - ** Graceful handling of file I/O errors.
-- **Input Validation - ** Checks for proper data types and ranges.
+- **Invalid Account Numbers -** Prompts user to enter valid existing account number.
+- **Insufficient Funds -** Prevents overdrafts with balance validation.
+- **File Access Issues -** Graceful handling of file I/O errors.
+- **Input Validation -** Checks for proper data types and ranges.
 
 ## 📊 File Management
 
-- **Storage Format - ** Binary file (`bank.dat`) for efficient data storage.
-- **Auto-Creation - ** Data file is created automatically on first run.
-- **Data Integrity - ** Safe read/write operations with proper file handling.
-- **Backup Recommendation - ** Regularly backup `bank.dat` for data safety.
+- **Storage Format -** Binary file (`bank.dat`) for efficient data storage.
+- **Auto-Creation -** Data file is created automatically on first run.
+- **Data Integrity -** Safe read/write operations with proper file handling.
+- **Backup Recommendation -** Regularly backup `bank.dat` for data safety.
 
 ## 🔮 Future Enhancements
 
-  - PIN-based authentication system
-  - Data encryption for sensitive information
-  - Transaction history and statements
-  - Account deletion capability
-  - Fund transfer between accounts
-  - Improved input validation
-  - Better error messages and help system
-  - Account search by name functionality
-
+  - PIN-based authentication system.
+  - Data encryption for sensitive information.
+  - Transaction history and statements.
+  - Account deletion capability.
+  - Fund transfer between accounts.
+  - Improved input validation.
