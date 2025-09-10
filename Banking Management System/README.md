@@ -52,11 +52,9 @@ Enter Account Holder Name: John Doe
 Initial Deposit: 1000.00
 ✅ Account created successfully!
 ```
-
 <p align="center">
   <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
-
 **Making a Deposit**
 ```
 Enter choice: 2
@@ -65,7 +63,9 @@ Enter deposit amount: 500.00
 ✅ Deposit of $500.00 successful!
 New Balance: $1500.00
 ```
-
+<p align="center">
+  <img src="Output/2.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+</p>
 **Withdrawing Funds**
 ```
 Enter choice: 3
@@ -74,7 +74,9 @@ Enter withdrawal amount: 200.00
 ✅ Withdrawal of $200.00 successful!
 Remaining Balance: $1300.00
 ```
-
+<p align="center">
+  <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+</p>
 **Checking Balance**
 ```
 Enter choice: 4
@@ -85,7 +87,10 @@ Account Number: 1001
 Account Holder: John Doe
 Current Balance: $1300.00
 ```
-
+<p align="center">
+  <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+</p>
+```
 ## 🗃️ Data Structure
 
 The application uses the following account structure -
@@ -122,6 +127,7 @@ struct Account {
   - Improved input validation
   - Better error messages and help system
   - Account search by name functionality
+
 
 
 
