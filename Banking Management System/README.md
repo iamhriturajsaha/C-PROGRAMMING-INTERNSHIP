@@ -93,7 +93,6 @@ Current Balance: $1300.00
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
-```
 
 ## 🗃️ Data Structure
 
@@ -131,3 +130,4 @@ struct Account {
   - Improved input validation
   - Better error messages and help system
   - Account search by name functionality
+
