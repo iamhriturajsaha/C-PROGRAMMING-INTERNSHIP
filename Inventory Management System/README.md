@@ -51,12 +51,11 @@ This project provides a comprehensive inventory management system that enables s
 
 ### Main Menu Interface
 ```
-===========INVENTORY SYSTEM============
+=====INVENTORY SYSTEM=====
 1. Add Item
 2. View Items
 3. Update Stock
 4. Sell Item
-=======================================
 Enter choice: 
 ```
 
@@ -169,6 +168,7 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
 
 
 
