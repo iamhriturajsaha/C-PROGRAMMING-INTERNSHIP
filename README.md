@@ -1,4 +1,4 @@
-# 🚀C Programming Internship
+# 🧑‍💻C Programming Internship
 
 Built 2 comprehensive C programming projects demonstrating systems programming, file handling and real-world application development skills acquired during my internship.
 
