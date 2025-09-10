@@ -73,7 +73,7 @@ Enter Quantity: 25
 ```
 
 <p align="center">
-  <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/1.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
 
 #### **Viewing Inventory**
@@ -84,7 +84,7 @@ Enter choice: 2
 🆔101 | 📦Wireless Headphones | 💰5000.00 | 📊Qty: 25
 ```
 <p align="center">
-  <img src="Output/2.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/2.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
 
 #### **Updating Stock**
@@ -95,7 +95,7 @@ Enter new Quantity: 50
 ✅ Stock updated!
 ```
 <p align="center">
-  <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/3.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
 
 #### **Selling Items**
@@ -106,11 +106,11 @@ Enter quantity to sell: 25
 ✅ Sold successfully! Total: 100000.00
 ```
 <p align="center">
-  <img src="Output/4.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/4.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
 
 <p align="center">
-  <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/5.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
 </p>
 
 ## 🗃️ Data Structure
@@ -171,3 +171,4 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
