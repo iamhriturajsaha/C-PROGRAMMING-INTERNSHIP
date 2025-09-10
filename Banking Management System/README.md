@@ -35,8 +35,8 @@ This project implements a fundamental banking system that allows users to perfor
 ```
 ===== BANKING SYSTEM =====
 1. Create Account
-2. Deposit Money
-3. Withdraw Money
+2. Deposit
+3. Withdraw
 4. Check Balance
 5. Exit
 Enter your choice: 
@@ -48,8 +48,7 @@ Enter your choice:
 ```
 Enter choice: 1
 Enter Account Number: 1001
-Enter Account Holder Name: John Doe
-Initial Deposit: 1000.00
+Enter Name: John
 ✅ Account created successfully!
 ```
 <p align="center">
@@ -60,9 +59,8 @@ Initial Deposit: 1000.00
 ```
 Enter choice: 2
 Enter Account Number: 1001
-Enter deposit amount: 500.00
-✅ Deposit of $500.00 successful!
-New Balance: $1500.00
+Enter amount to deposit: 5000
+✅ Deposit successful!
 ```
 <p align="center">
   <img src="Output/2.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -72,9 +70,8 @@ New Balance: $1500.00
 ```
 Enter choice: 3
 Enter Account Number: 1001
-Enter withdrawal amount: 200.00
-✅ Withdrawal of $200.00 successful!
-Remaining Balance: $1300.00
+Enter amount to withdraw: 2000
+✅ Withdrawal successful!
 ```
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -84,11 +81,7 @@ Remaining Balance: $1300.00
 ```
 Enter choice: 4
 Enter Account Number: 1001
-
-=== ACCOUNT DETAILS ===
-Account Number: 1001
-Account Holder: John Doe
-Current Balance: $1300.00
+Name: John | Balance: 3000.00
 ```
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
