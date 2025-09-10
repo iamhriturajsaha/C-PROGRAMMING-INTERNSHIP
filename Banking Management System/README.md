@@ -39,7 +39,7 @@ This project implements a fundamental banking system that allows users to perfor
 3. Withdraw
 4. Check Balance
 5. Exit
-Enter your choice: 
+Enter choice: 
 ```
 
 ### Sample Workflow
@@ -121,3 +121,4 @@ struct Account {
   - Account deletion capability.
   - Fund transfer between accounts.
   - Improved input validation.
+
