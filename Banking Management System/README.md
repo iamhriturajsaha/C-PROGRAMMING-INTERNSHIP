@@ -44,7 +44,7 @@ Enter your choice:
 
 ### Sample Workflow
 
-**Creating a New Account:**
+**Creating a New Account**
 ```
 Enter choice: 1
 Enter Account Number: 1001
@@ -53,7 +53,11 @@ Initial Deposit: 1000.00
 ✅ Account created successfully!
 ```
 
-**Making a Deposit:**
+<p align="center">
+  <img src="Output/1.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
+</p>
+
+**Making a Deposit**
 ```
 Enter choice: 2
 Enter Account Number: 1001
@@ -62,7 +66,7 @@ Enter deposit amount: 500.00
 New Balance: $1500.00
 ```
 
-**Withdrawing Funds:**
+**Withdrawing Funds**
 ```
 Enter choice: 3
 Enter Account Number: 1001
@@ -71,7 +75,7 @@ Enter withdrawal amount: 200.00
 Remaining Balance: $1300.00
 ```
 
-**Checking Balance:**
+**Checking Balance**
 ```
 Enter choice: 4
 Enter Account Number: 1001
