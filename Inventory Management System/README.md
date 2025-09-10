@@ -92,7 +92,7 @@ Enter choice: 2
 Enter choice: 3
 Enter Item ID: 101
 Enter new Quantity: 50
-✅ Stock updated!
+✅Stock updated!
 ```
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
@@ -103,7 +103,7 @@ Enter new Quantity: 50
 Enter choice: 4
 Enter Item ID: 101
 Enter quantity to sell: 25
-✅ Sold successfully! Total: 100000.00
+✅Sold successfully! Total: 100000.00
 ```
 <p align="center">
   <img src="Output/4.png" alt="1" style="width:100%; max-width:300px; height:auto;"/>
@@ -171,4 +171,5 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
 
