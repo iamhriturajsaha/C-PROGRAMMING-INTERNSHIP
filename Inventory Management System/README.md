@@ -51,15 +51,13 @@ This project provides a comprehensive inventory management system that enables s
 
 ### Main Menu Interface
 ```
-=======================================
-     INVENTORY SYSTEM
-=======================================
+===========INVENTORY SYSTEM============
 1. Add Item
 2. View Items
 3. Update Stock
 4. Sell Item
 =======================================
-Enter your choice (1-4): 
+Enter choice: 
 ```
 
 ### Detailed Operations
@@ -69,29 +67,24 @@ Enter your choice (1-4):
 Enter choice: 1
 Enter Item ID: 101
 Enter Item Name: Wireless Headphones
-Enter Price: 4000
+Enter Price: 5000
 Enter Quantity: 25
-✅ Item added successfully!
+✅Item added successfully!
 ```
 
 #### **Viewing Inventory**
 ```
 Enter choice: 2
 
-=== INVENTORY ITEMS===
-+------+--------------------+--------+-----------+
-| ID   | Item Name          | Price  |   Stock   |
-+------+--------------------+--------+-----------+
-| 101  | Wireless Headphones|  4000  |    25     |
-| 102  | USB Cables         |  5000  |    50     |   
-+------+--------------------+--------+-----------+
+====== INVENTORY ITEMS=======
+101 | Wireless Headphones| 5000.00 | Qty: 25 
 ```
 
 #### **Updating Stock**
 ```
 Enter choice: 3
 Enter Item ID: 101
-Enter New Quantity: 30
+Enter new Quantity: 50
 ✅ Stock updated!
 ```
 
@@ -99,7 +92,7 @@ Enter New Quantity: 30
 ```
 Enter choice: 4
 Enter Item ID: 101
-Enter Quantity to Sell: 10
+Enter quantity to sell: 25
 ✅ Sold successfully! Total: 100000.00
 ```
 
@@ -161,5 +154,6 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
 
 
