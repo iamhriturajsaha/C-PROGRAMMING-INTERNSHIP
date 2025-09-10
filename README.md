@@ -1,15 +1,15 @@
 # 🧑‍💻C Programming Internship
 
-Built 2 comprehensive C programming projects demonstrating systems programming, file handling and real-world application development skills acquired during my internship.
+Built two comprehensive C programming projects demonstrating systems programming, file handling and real-world application development skills acquired during my internship.
 
 ## 📋 Projects Overview
 
 | Project | Description | Key Features |
 |---------|-------------|--------------|
-| 🏦 Banking System | Command-line banking application | Account management, transactions, file persistence |
-| 🛒 Inventory Management | Retail inventory tracking system | Stock management, sales processing, reporting |
+| 🏦 Banking Management System | Command-line banking application | Account management, transactions, file persistence |
+| 🛒 Inventory Management System | Retail inventory tracking system | Stock management, sales processing, reporting |
 
-## 🏦 Banking System
+## 🏦 Banking Management System
 
 **Purpose** - Simulate core banking operations with secure data handling.
 
@@ -97,3 +97,4 @@ These projects provided hands-on experience in -
 - **System programming** using low-level C operations.
 - **Professional coding standards** and best practices.
 - **Problem-solving** for practical business scenarios.
+
