@@ -79,12 +79,12 @@ Enter Quantity: 25
 Enter choice: 2
 
 === INVENTORY ITEMS===
-+------+-------------------+--------+-----------+
-| ID   | Item Name         | Price  | Stock     |
-+------+-------------------+--------+-----------+
-| 101  | Wireless Headphones| 4000  |  25       |
-| 102  | USB Cables        | 5000   |  50       |   
-+------+-------------------+--------+-----------+
++------+--------------------+--------+-----------+
+| ID   | Item Name          | Price  |   Stock   |
++------+--------------------+--------+-----------+
+| 101  | Wireless Headphones|  4000  |    25     |
+| 102  | USB Cables         |  5000  |    50     |   
++------+--------------------+--------+-----------+
 ```
 
 #### **Updating Stock**
@@ -161,4 +161,5 @@ struct Item {
 - Manage incoming and outgoing inventory.
 - Track item locations and quantities.
 - Generate stock reports for management.
+
 
