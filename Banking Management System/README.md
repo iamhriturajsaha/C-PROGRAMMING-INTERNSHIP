@@ -54,7 +54,7 @@ Initial Deposit: 1000.00
 ```
 
 <p align="center">
-  <img src="Output/1.png" alt="1" style="width:80%; max-width:300px; height:auto;"/>
+  <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
 
 **Making a Deposit**
@@ -122,5 +122,6 @@ struct Account {
   - Improved input validation
   - Better error messages and help system
   - Account search by name functionality
+
 
 
