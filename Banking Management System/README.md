@@ -55,6 +55,7 @@ Initial Deposit: 1000.00
 <p align="center">
   <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
+
 **Making a Deposit**
 ```
 Enter choice: 2
@@ -66,6 +67,7 @@ New Balance: $1500.00
 <p align="center">
   <img src="Output/2.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
+
 **Withdrawing Funds**
 ```
 Enter choice: 3
@@ -77,6 +79,7 @@ Remaining Balance: $1300.00
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
+
 **Checking Balance**
 ```
 Enter choice: 4
@@ -91,6 +94,7 @@ Current Balance: $1300.00
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
 ```
+
 ## 🗃️ Data Structure
 
 The application uses the following account structure -
@@ -127,7 +131,3 @@ struct Account {
   - Improved input validation
   - Better error messages and help system
   - Account search by name functionality
-
-
-
-
