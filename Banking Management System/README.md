@@ -49,7 +49,7 @@ Enter choice:
 Enter choice: 1
 Enter Account Number: 1001
 Enter Name: John
-✅ Account created successfully!
+✅Account created successfully!
 ```
 <p align="center">
   <img src="Output/1.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -60,7 +60,7 @@ Enter Name: John
 Enter choice: 2
 Enter Account Number: 1001
 Enter amount to deposit: 5000
-✅ Deposit successful!
+✅Deposit successful!
 ```
 <p align="center">
   <img src="Output/2.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -71,7 +71,7 @@ Enter amount to deposit: 5000
 Enter choice: 3
 Enter Account Number: 1001
 Enter amount to withdraw: 2000
-✅ Withdrawal successful!
+✅Withdrawal successful!
 ```
 <p align="center">
   <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -84,7 +84,7 @@ Enter Account Number: 1001
 Name: John | Balance: 3000.00
 ```
 <p align="center">
-  <img src="Output/3.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
+  <img src="Output/4.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
 </p>
 
 ## 🗃️ Data Structure
@@ -121,4 +121,3 @@ struct Account {
   - Account deletion capability.
   - Fund transfer between accounts.
   - Improved input validation.
-
