@@ -1,4 +1,4 @@
-# 🏦 Banking Management System
+# 🏦Banking Management System
 
 A **command-line banking application** built in C that provides essential banking operations with persistent file-based storage.
 
@@ -28,7 +28,6 @@ This project implements a fundamental banking system that allows users to perfor
 - **Compiler - ** GCC (GNU Compiler Collection).
 - **File I/O - ** Standard C library functions (`fopen`, `fwrite`, `fread`, `fseek`, `fclose`).
 - **Storage - ** Binary file format for optimized performance.
-
 
 ## 💻 Usage Guide
 
@@ -119,6 +118,3 @@ struct Account {
   - Improved input validation
   - Better error messages and help system
   - Account search by name functionality
- 
-
-
