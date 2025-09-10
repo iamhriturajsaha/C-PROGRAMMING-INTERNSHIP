@@ -81,7 +81,7 @@ Enter amount to withdraw: 2000
 ```
 Enter choice: 4
 Enter Account Number: 1001
-Name: John | Balance: 3000.00
+👤Name: John | 💰Balance: 3000.00
 ```
 <p align="center">
   <img src="Output/4.png" alt="1" style="width:50%; max-width:300px; height:auto;"/>
@@ -121,3 +121,4 @@ struct Account {
   - Account deletion capability.
   - Fund transfer between accounts.
   - Improved input validation.
+
