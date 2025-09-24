@@ -79,7 +79,7 @@ struct Item {
 **Software Engineering** -
 - Requirements analysis and system design.
 - User interface design and user experience.
-- Testing, debugging, and code documentation.
+- Testing, debugging and code documentation.
 - Version control and project management.
 
 ## 🎯 Learning Outcomes
